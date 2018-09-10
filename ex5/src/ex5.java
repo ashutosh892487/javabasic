@@ -1,11 +1,10 @@
 import java.util.*;
-
-public class ex5{
+class AddIntegers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int count = 0;
         int total = 0;
-        System.out.println("Enter integers");
+        System.out.println("Enter integers with end input as 0:");
         int number = input.nextInt();
 
         if (number <0) {

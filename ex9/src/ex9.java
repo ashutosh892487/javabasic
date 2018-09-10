@@ -1,5 +1,5 @@
 import java.util.*;
-public class ex9 {
+class stringReverse {
     public static void main(String[] args) {
         System.out.println("Enter a string: ");
         Scanner stg = new Scanner(System.in);
@@ -7,7 +7,7 @@ public class ex9 {
         System.out.println(reverseString(word));
     }
     public static String reverseString(String s) {
-        char c[] = s.toCharArray();
+        char c[] = s.toCharArray();  //c is character input.
         int i = 0, j = c.length - 1;
         while (i < j) {
             char tmp = c[i];

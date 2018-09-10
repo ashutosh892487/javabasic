@@ -1,16 +1,16 @@
 import java.util.*;
-public class ex2 {
+class numberCheck {
     public static void main(String[] args)
     {
-        int n;
+        int Input;
         Scanner s=new Scanner(System.in);
         System.out.println("Enter any number");
-        n=s.nextInt();
-        if(n%2==0 && n>=20 && n<=30)
+        Input=s.nextInt();
+        if(Input%2==0 && Input>=20 && Input<=30)  //check if number is even.
         {
             System.out.println("Jerry");
         }
-        if(n%2!=0 && n>=20 && n<=30)
+        if(Input%2!=0 && Input>=20 && Input<=30)  //check if number is odd.
         {
             System.out.println("Tom");
         }

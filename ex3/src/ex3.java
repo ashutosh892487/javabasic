@@ -1,5 +1,5 @@
 import java.util.*;
-public class ex3 {
+class alphabetType {
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
         System.out.println("Ënter a word");
@@ -18,10 +18,10 @@ public class ex3 {
             char ch = word.charAt(i);
             if(ch == 'a' || ch == 'e' || ch == 'i'
                     || ch == 'o' || ch == 'u') {
-                System.out.println( ch + " - vowel");
+                System.out.print("Vowel ");
             }
             else if((ch >= 'a'&& ch <= 'z')) {
-                System.out.println( ch + " - Consonent");
+                System.out.print("Consonent ");
             }        }
     }
 }

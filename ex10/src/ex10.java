@@ -1,11 +1,11 @@
 import java.util.*;
-public class ex10 {
+class stringPattern {
     public static void main(String[] args) {
         System.out.println("Enter a string : ");
         Scanner scan = new Scanner(System.in);
         String s = scan.next();
         System.out.println("Enter a number: ");
-        Scanner num = new Scanner(System.in);
+        Scanner num = new Scanner(System.in);  // num is number of last alphabets which will be repeated num number of times.
         int n = num.nextInt();
         int l = s.length();
         System.out.print(s);
